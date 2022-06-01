@@ -49,7 +49,7 @@ class Cadastrar
                 $msg->set("cor", "success");
             }
             $msg->set("msg", $this->message);
-            $msg->set("uri", "/mayconWeb/?class=Login");
+            $msg->set("uri", "/gabriel_web22Web/?class=Login");
             return $msg->saida();
         }
     }

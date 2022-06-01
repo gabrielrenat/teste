@@ -28,7 +28,7 @@ class Login
             Session::startSession();
             Session::setValue("id", $usuario[0]["id"]);
             Session::setValue("nome", $usuario[0]["nome"]);
-            header("Location:/mayconWeb/restrita.php");
+            header("Location:/gabriel_web22Web/restrita.php");
         }
         $this->message = $crud->getMessage();
         $this->message = "Login ou senha inválidos!";
@@ -54,7 +54,7 @@ class Login
                     $msg->set("cor", "success");
                 }
             $msg->set("msg", $this->message);
-            $msg->set("uri", "/mayconWeb/?class=Login");
+            $msg->set("uri", "/gabriel_web22Web/?class=Login");
             return $msg->saida();
         }
     }

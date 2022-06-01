@@ -27,7 +27,7 @@ Session::freeSession();
 // Front Controller
 class Aplicacao
 {
-  static private $app = "/mayconWeb";
+  static private $app = "/gabriel_web22Web";
   public static function run()
   {
     $layout = new Template('public/view/layout.html');

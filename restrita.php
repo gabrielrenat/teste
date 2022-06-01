@@ -26,8 +26,8 @@ if (!Session::getValue("id")) {
 // Front Controller
 class Aplicacao
 {
-  static public $path = "/mayconWeb";
-  static private $uri = "/mayconWeb/restrita.php";
+  static public $path = "/gabriel_web22Web";
+  static private $uri = "/gabriel_web22Web/restrita.php";
   public static function run()
   {
     $layout = new Template('restrict/view/layout.html');
